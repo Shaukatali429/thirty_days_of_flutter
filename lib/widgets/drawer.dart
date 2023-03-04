@@ -6,7 +6,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final imageURL =
+    const imageURL =
         "https://www.shutterstock.com/image-vector/letter-s-logo-icon-design-260nw-287173745.jpg";
 
     return Drawer(
@@ -14,7 +14,7 @@ class MyDrawer extends StatelessWidget {
         color: Colors.deepPurple,
         child: ListView(
           padding: EdgeInsets.zero,
-          children: [
+          children: const [
             DrawerHeader(
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
